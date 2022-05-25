@@ -5,8 +5,159 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Segunda tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:gray ;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead,tfoot{
+            background-color: gray;
+            color: #fff;
+        }
+        td.num{
+            text-align: right;
+        }
+        tbody tr:nth-child(2n){
+            background-color: rgba(211, 211, 211, 0.781);
+        }
+    </style>
 </head>
 <body>
+<h1>Uso de tabalas Grandes</h1>
+<table>
+    <caption>Polulacao das unidades federativas</caption>
+    <thead>
+        <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">Populacao</th>
+
+
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Sao paulo</td>
+            <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+            <td>Minhas Gerais</td>
+            <td class="num">21.003.000</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">299.200.222</td>
+        </tr>
+        <tr>
+            <td>Sao paulo 2 </td>
+            <td class="num">452.919.049</td>
+        </tr>
+        <tr>
+            <td>Minhas Gerais 2</td>
+            <td class="num">333.003.000</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro 2</td>
+            <td class="num">111.200.22</td>
+        </tr><tr>
+            <td>Sao paulo 3</td>
+            <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+            <td>Minhas Gerais 3</td>
+            <td class="num">21.003.000</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro 3</td>
+            <td class="num">666.200.222</td>
+        </tr>
+        <tr>
+            <td>Minhas Gerais</td>
+            <td class="num">21.003.000</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">299.200.222</td>
+        </tr>
+        <tr>
+            <td>Sao paulo 2 </td>
+            <td class="num">452.919.049</td>
+        </tr>
+        <tr>
+            <td>Minhas Gerais 2</td>
+            <td class="num">333.003.000</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro 2</td>
+            <td class="num">111.200.22</td>
+        </tr><tr>
+            <td>Sao paulo 3</td>
+            <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+            <td>Minhas Gerais 3</td>
+            <td class="num">21.003.000</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro 3</td>
+            <td class="num">666.200.222</td>
+        </tr>
+        <tr>
+            <td>Minhas Gerais</td>
+            <td class="num">21.003.000</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">299.200.222</td>
+        </tr>
+        <tr>
+            <td>Sao paulo 2 </td>
+            <td class="num">452.919.049</td>
+        </tr>
+        <tr>
+            <td>Minhas Gerais 2</td>
+            <td class="num">333.003.000</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro 2</td>
+            <td class="num">111.200.22</td>
+        </tr><tr>
+            <td>Sao paulo 3</td>
+            <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+            <td>Minhas Gerais 3</td>
+            <td class="num">21.003.000</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro 3</td>
+            <td class="num">666.200.222</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <th scope="row">Total de habitantes</th>
+            <td class="num">1.555.555.555</td>
+        </tr>
+    </tfoot>
+</table>
+
 
 </body>
 </html>
